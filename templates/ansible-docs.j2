@@ -6,14 +6,14 @@
 {% endif %}
 
 ---
-### Requirements
 {% if requirements is defined %}
+### Requirements
 {% for req in requirements %}
 * {{ req }}
 {% endfor %}
+---
 {% endif %}
 
----
 ### Modules
 
 {% for doc in modules.results %}
